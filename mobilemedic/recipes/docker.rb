@@ -8,7 +8,7 @@ end
 
 ## Install Docker
 docker_installation_package 'default' do
-  version '1.11.2'
+  version '1.13.0'
   action :create
 end
 

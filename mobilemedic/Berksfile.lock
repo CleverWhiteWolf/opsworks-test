@@ -1,0 +1,117 @@
+DEPENDENCIES
+  apt
+  compat_resource
+  docker
+  java
+  jenkins
+  jenkins-server
+  mobilemedic
+    path: .
+    metadata: true
+  mysql
+  nginx
+  ohai
+  openvpn
+    git: https://github.com/sous-chefs/openvpn.git
+    revision: 36aae81c95f6522d0d3507ba7f10d8547310e9f4
+  packagecloud
+  php
+  runit
+  sysctl
+  yum
+  yum-epel
+  yumgroup
+
+GRAPH
+  ant (1.0.4)
+    ark (>= 0.0.0)
+  apt (5.0.1)
+    compat_resource (>= 12.16.3)
+  ark (2.2.1)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (7.0.3)
+    compat_resource (>= 12.16.3)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef-vault (2.1.1)
+  compat_resource (12.16.3)
+  composer (2.5.2)
+    apt (>= 0.0.0)
+    php (>= 0.0.0)
+    windows (>= 0.0.0)
+  dmg (3.1.0)
+  docker (2.13.11)
+    compat_resource (>= 12.16.2)
+  git (5.0.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  homebrew (3.0.0)
+  iis (5.0.5)
+    windows (>= 1.34.6)
+  java (1.46.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  jenkins (4.2.1)
+    compat_resource (>= 12.16.3)
+    runit (>= 1.7)
+  jenkins-server (0.7.5)
+    ant (>= 0.0.0)
+    chef-vault (>= 0.0.0)
+    composer (>= 0.0.0)
+    git (>= 0.0.0)
+    java (>= 0.0.0)
+    jenkins (>= 2.3.1)
+    nginx (>= 0.0.0)
+  mingw (1.2.5)
+    compat_resource (>= 12.16.3)
+    seven_zip (>= 0.0.0)
+  mobilemedic (0.1.0)
+    compat_resource (>= 0.0.0)
+    docker (>= 0.0.0)
+    java (>= 0.0.0)
+    mysql (>= 0.0.0)
+    nginx (>= 0.0.0)
+    openvpn (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+    yumgroup (>= 0.0.0)
+  mysql (8.2.0)
+  nginx (1.8.0)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    ohai (>= 1.1.4)
+    runit (>= 0.0.0)
+    yum (>= 0.0.0)
+  ohai (4.2.3)
+    compat_resource (>= 12.14.7)
+  openvpn (3.0.0)
+    apt (>= 0.0.0)
+    sysctl (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  packagecloud (0.2.5)
+  php (2.2.0)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 6.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  runit (3.0.5)
+    packagecloud (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  sysctl (0.8.1)
+    ohai (>= 4.0)
+  windows (2.1.1)
+    ohai (>= 4.0.0)
+  xml (3.1.1)
+    build-essential (>= 0.0.0)
+  yum (4.1.0)
+  yum-epel (2.1.1)
+    compat_resource (>= 12.16.3)
+  yumgroup (0.5.0)
