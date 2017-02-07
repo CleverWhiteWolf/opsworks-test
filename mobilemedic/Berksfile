@@ -3,6 +3,7 @@ source 'https://supermarket.chef.io'
 metadata
 
 cookbook 'apt'
+cookbook 'aws'
 cookbook 'compat_resource'
 cookbook 'docker'
 cookbook 'java'
@@ -14,6 +15,7 @@ cookbook 'ohai'
 cookbook 'openvpn', ">= 3.0.0", git: "https://github.com/sous-chefs/openvpn.git"
 cookbook 'packagecloud'
 cookbook 'php'
+cookbook 'route53'
 cookbook 'runit'
 cookbook 'sysctl'
 cookbook 'yum'
